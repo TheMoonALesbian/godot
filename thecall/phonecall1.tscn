@@ -18,14 +18,15 @@ script/script = ExtResource( 1 )
 
 [node name="Label 1" type="Label" parent="."]
 
+rect/scale = Vector2( 0.5, 0.5 )
 focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 0
-margin/left = 58.0
+margin/left = 60.0
 margin/top = 115.0
-margin/right = 416.0
-margin/bottom = 144.0
+margin/right = 854.0
+margin/bottom = 179.0
 custom_fonts/font = ExtResource( 2 )
 text = "I can be there in a few hours."
 percent_visible = 1.0
@@ -35,14 +36,15 @@ max_lines_visible = -1
 [node name="Label 2" type="Label" parent="."]
 
 visibility/visible = false
+rect/scale = Vector2( 0.5, 0.5 )
 focus/ignore_mouse = true
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 0
-margin/left = 57.0
-margin/top = 161.0
-margin/right = 419.0
-margin/bottom = 190.0
+margin/left = 60.0
+margin/top = 160.0
+margin/right = 859.0
+margin/bottom = 224.0
 custom_fonts/font = ExtResource( 2 )
 text = "Just hang on until I get there."
 percent_visible = 1.0
